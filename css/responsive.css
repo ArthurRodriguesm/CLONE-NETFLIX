@@ -1,0 +1,51 @@
+@media screen and (max-width: 868px){  
+    .nav{
+        visibility: hidden;
+        position: absolute;
+        top: 96px;
+        left: 0px;
+        width: 60%;
+        min-height: 50vh;
+        max-height: 100vh;
+        background-color: #141414;
+        display: flex;
+        flex-direction: column;
+    }
+    #check:checked ~ .nav{
+        visibility: visible;    
+    }
+    label .fa-bars{
+        display: block;
+        cursor: pointer;
+    }
+    .nav a{
+        margin: 15px 0px 15px 5px;
+    }
+} 
+@media screen and (max-width: 768px){
+    .nav{
+        height: 80vh;
+    }
+    .filme-cartaz .titulo{
+        margin-top: 20%;
+    }
+    .filme-cartaz .container{
+        margin-bottom: 60%;
+    }
+    .botoes{
+        width: 100%;
+    }
+    .botoes .btn{
+        width: 45%;
+    }
+}
+
+@media screen and (max-width: 540px){
+    .nav{
+        width: 80%;
+        height: 80vh;
+    }
+    .filme-cartaz .titulo{
+        margin-top: 60%;
+    }
+}
