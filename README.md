@@ -5,3 +5,5 @@ Clone básico da plataforma Netflix com carrossel de imagens
  - HTML5
  - CSS3
  - JQUERY
+
+LINK: ("https://arthurrodriguesm.github.io/CLONE-NETFLIX/")
